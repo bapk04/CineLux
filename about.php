@@ -393,14 +393,15 @@ include("header.php");
 
       <div class="area1 columns left">
         
-        <h5>INOX Theater là thương hiệu rạp chiếu phim được nhận diện rộng rãi nhất trong nước với các tiêu chuẩn cao về ‘Sang trọng’, ‘Dịch vụ’ & ‘Công nghệ’.</h5>
-        <p>Hiện tại, hệ thống rạp chiếu có hơn 450 màn hình tại hơn 100 địa điểm, phủ rộng trên hơn 100 thành phố trên toàn quốc.  
-        Điểm tiện lợi nhất khi sử dụng là sự đơn giản và dễ dàng để đặt vé trực tuyến. Xuất phát từ Chennai – nơi có truyền thống điện ảnh lâu đời, chúng tôi là một chuỗi rạp với niềm đam mê mang đến trải nghiệm và một niềm đam mê lớn hơn để chia sẻ với khách hàng.  
-        Chúng tôi hiểu niềm vui khi xem những câu chuyện yêu thích sống động trên màn ảnh rộng, và tin rằng trách nhiệm của chúng tôi là nỗ lực hết sức để làm trải nghiệm này trở nên sống động nhất có thể!  
-        Công ty đã góp phần đưa chỉnh sửa phi tuyến tính số hóa dựa trên máy tính vào Ấn Độ với Avid Technology, thay đổi ngành công nghiệp và cách thức biên tập phim và chương trình truyền hình Ấn Độ mãi mãi. Công ty sau đó mang âm thanh rạp chiếu số hóa đến Ấn Độ với DTS và giúp ngành điện ảnh Ấn Độ nhảy vọt một thế hệ từ âm thanh mono lên kỹ thuật số.  
-        <br>
-        Hệ thống phục vụ 24/7.  
-        </p> 
+        <h5>INOX Theater là chuỗi rạp chiếu phim được biết đến rộng rãi tại Việt Nam, nổi bật với tiêu chuẩn ‘Sang trọng’, ‘Dịch vụ’ và ‘Công nghệ’.</h5>
+        <p>Trong những năm gần đây, INOX đã mở rộng nhanh chóng tại Việt Nam với hơn 120 màn hình tại 35 rạp, hiện diện tại hơn 20 tỉnh thành — từ Hà Nội và Hải Phòng ở miền Bắc, qua Đà Nẵng ở miền Trung, đến Nha Trang và TP. Hồ Chí Minh ở miền Nam. Mỗi rạp của chúng tôi được thiết kế để mang đến trải nghiệm xem phim đẳng cấp: màn hình sắc nét 4K, hệ thống âm thanh vòm Dolby Atmos, ghế ngồi thoải mái với lựa chọn VIP, và khu vực ẩm thực cung cấp thực đơn phong phú từ bỏng ngô truyền thống đến các combo cao cấp.
+
+        INOX chú trọng mang tới sự tiện lợi tối đa cho khán giả: đặt vé online nhanh chóng, thanh toán không tiền mặt an toàn, chọn chỗ trước, và nhận thông báo suất chiếu phù hợp. Chương trình thành viên của chúng tôi cung cấp điểm thưởng, ưu đãi đặc quyền và vé xem sớm dành cho các thành viên tích cực. Đội ngũ nhân viên được đào tạo chuyên nghiệp, thân thiện và sẵn sàng hỗ trợ 24/7 nhằm đảm bảo hành trình trải nghiệm của khách hàng luôn trọn vẹn.
+
+        Bên cạnh đó, INOX phối hợp với nhiều nhà phát hành, rạp chiếu độc lập và các liên hoan phim để đưa đến khán giả những bộ phim trong nước và quốc tế đa dạng — từ bom tấn thương mại đến các tác phẩm nghệ thuật và phim độc lập. Chúng tôi cũng đầu tư vào các chương trình cộng đồng: chiếu phim miễn phí cho học sinh, chương trình giảm giá cho người cao tuổi và người khuyết tật, cùng các hoạt động giao lưu với nghệ sĩ và buổi thảo luận sau buổi chiếu.
+
+        Về mặt công nghệ và bền vững, INOX liên tục nâng cấp hệ thống chiếu và âm thanh, đồng thời triển khai các sáng kiến tiết kiệm năng lượng và giảm rác thải tại rạp. Tương lai của chúng tôi là tiếp tục mở rộng mạng lưới, mang công nghệ trải nghiệm rạp hiện đại tới nhiều tỉnh thành hơn, và xây dựng một cộng đồng yêu điện ảnh lớn mạnh — nơi mọi người có thể gặp gỡ, tận hưởng và chia sẻ cảm xúc qua từng thước phim.
+        </p>
 
       </div>
       <div class="area2 columns feature-media left">
@@ -430,7 +431,7 @@ include("header.php");
                             Sang trọng
                         </div>
                         <div class="dvPatronDescText">
-                           INOX Theater là chuỗi rạp chiếu hàng đầu tại Gujarat. Rạp chiếu cả phim Hindi và Anh, mang đến trải nghiệm điện ảnh cao cấp cho khách hàng.
+                           INOX Theater là chuỗi rạp chiếu hàng đầu tại Việt Nam. Rạp chiếu cả phim Việt, Mỹ , Nhật , Hàn , Ấn và Anh , mang đến trải nghiệm điện ảnh cao cấp cho khách hàng.
                         </div>
                     </div>
                 </div>

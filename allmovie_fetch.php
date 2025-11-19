@@ -32,7 +32,7 @@ if(isset($_POST["action"]))
 			$button_class = ($row['action'] == "running") ? "btn-book" : "btn-upcoming";
 			
 			$output .= '
-			<div class="col-lg-4 col-md-6 col-sm-12 movie-item" style="animation-delay: '.$delay.'s">
+			<div class="movie-item" style="animation-delay: '.$delay.'s">
 				<div class="movie-card">
 					<div class="movie-poster">
 						<img src="admin/image/'. $row['image'] .'" alt="'. $row['movie_name'] .'" class="poster-img">
@@ -108,7 +108,7 @@ if(isset($_POST["action"]))
 
 	.movie-poster {
 		width: 100%;
-		height: 380px;
+		height: 480px;
 		overflow: hidden;
 		background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 		position: relative;
@@ -263,13 +263,13 @@ if(isset($_POST["action"]))
 
 	@media (max-width: 1200px) {
 		.movie-poster {
-			height: 350px;
+			height: 430px;
 		}
 	}
 
 	@media (max-width: 768px) {
 		.movie-poster {
-			height: 300px;
+			height: 380px;
 		}
 
 		.movie-info {
@@ -293,7 +293,7 @@ if(isset($_POST["action"]))
 
 	@media (max-width: 480px) {
 		.movie-poster {
-			height: 250px;
+			height: 320px;
 		}
 
 		.movie-info {
@@ -304,4 +304,135 @@ if(isset($_POST["action"]))
 			font-size: 0.8rem;
 		}
 	}
+
+ 	/* Grid layout: 4 cards per row on large screens */
+ 	.filter_data {
+ 		display: grid;
+ 		grid-template-columns: repeat(4, 1fr);
+ 		gap: 28px;
+ 		align-items: stretch;
+ 	}
+
+ 	/* Ensure each grid item fills its cell and cards are equal height */
+ 	.filter_data > .movie-item {
+ 		display: flex;
+ 		height: 100%;
+ 		width: 100%;
+ 	}
+	
+	/* -- Card visual enhancements for sparkle/glow -- */
+	.movie-card {
+		border-radius: 12px;
+		overflow: hidden;
+		position: relative;
+		background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.04));
+		border: 1px solid rgba(255,255,255,0.04);
+		box-shadow: 0 10px 30px rgba(0,0,0,0.35), 0 2px 6px rgba(102,126,234,0.06) inset;
+		transition: transform 320ms cubic-bezier(.2,.8,.2,1), box-shadow 320ms ease, filter 320ms ease;
+	}
+
+	.movie-card::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		background: linear-gradient(120deg, rgba(118,75,162,0.06), rgba(102,126,234,0.04));
+		mix-blend-mode: screen;
+		opacity: 0.9;
+	}
+
+	.movie-card:hover {
+		transform: translateY(-18px) scale(1.02);
+		box-shadow: 0 30px 90px rgba(102,126,234,0.18), 0 8px 30px rgba(0,0,0,0.45);
+		filter: saturate(1.06) contrast(1.02);
+	}
+
+	.movie-poster { /* add subtle parallax shimmer */
+		overflow: hidden;
+		position: relative;
+	}
+
+	.poster-img {
+		transition: transform 650ms cubic-bezier(.2,.8,.2,1), filter 650ms ease;
+	}
+
+	.movie-card:hover .poster-img {
+		transform: scale(1.14) rotate(-1.6deg);
+		filter: drop-shadow(0 30px 50px rgba(102,126,234,0.18));
+	}
+
+	.movie-overlay {
+		background: radial-gradient(circle at 30% 20%, rgba(255,255,255,0.06), transparent 12%),
+			linear-gradient(135deg, rgba(102,126,234,0.85) 0%, rgba(118,75,162,0.85) 100%);
+		opacity: 0;
+		transition: opacity 280ms ease, transform 280ms ease;
+	}
+
+	.movie-card:hover .movie-overlay {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+
+	.movie-btn {
+		box-shadow: 0 8px 30px rgba(102,126,234,0.12);
+		border-radius: 999px;
+	}
+
+	.movie-btn:hover {
+		box-shadow: 0 18px 40px rgba(102,126,234,0.22), 0 6px 18px rgba(0,0,0,0.25);
+	}
+
+	/* small glowing badge */
+	.movie-badge {
+		position: absolute;
+		top: 12px;
+		left: 12px;
+		background: linear-gradient(90deg,#ffd166,#ff6b6b);
+		color: #111;
+		padding: 6px 10px;
+		font-weight: 700;
+		font-size: 0.85rem;
+		border-radius: 999px;
+		box-shadow: 0 6px 18px rgba(255,107,107,0.12);
+	}
+
+	/* gentle shimmer on load */
+	@keyframes shimmer {
+		0% { opacity: 0.35; transform: translateX(-30px); }
+		50% { opacity: 0.95; transform: translateX(10px); }
+		100% { opacity: 0.35; transform: translateX(-30px); }
+	}
+
+	.movie-card::before {
+		content: '';
+		position: absolute;
+		top: 0; left: -50%; width: 60%; height: 100%;
+		background: linear-gradient(90deg, transparent, rgba(255,255,255,0.06), transparent);
+		transform: skewX(-18deg);
+		opacity: 0.0;
+		pointer-events: none;
+		animation: shimmer 4.5s linear infinite;
+	}
+
+ 	/* Make the card stretch to fill the grid item */
+ 	.movie-item .movie-card {
+ 		flex: 1 1 auto;
+ 		display: flex;
+ 		flex-direction: column;
+ 	}
+
+ 	@media (max-width: 1200px) {
+ 		.filter_data { grid-template-columns: repeat(3, 1fr); }
+ 		.movie-poster { height: 430px; }
+ 	}
+
+ 	@media (max-width: 992px) {
+ 		.filter_data { grid-template-columns: repeat(2, 1fr); }
+ 		.movie-poster { height: 380px; }
+ 	}
+
+ 	@media (max-width: 576px) {
+ 		.filter_data { grid-template-columns: 1fr; }
+ 		.movie-poster { height: 320px; }
+ 	}
 </style>
