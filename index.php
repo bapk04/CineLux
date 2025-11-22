@@ -57,7 +57,9 @@ if (mysqli_num_rows($result) > 0) {
     
           <div class="col-lg-3 col-md-3 col-sm-6">
             <div class="running-movie">
-             <img src=admin/image/<?php echo $row['image']; ?> alt="" class="image-resize2" style="width: 100%;">
+             <a href="movie_details.php?pass=<?php echo $row['id'];?>">
+                  <img src="admin/image/<?php echo $row['image']; ?>" alt="" class="image-resize2" style="width: 100%;">
+              </a>
               <div class="top-right">
                 <a data-toggle="modal" data-target="#tailer_modal<?php echo $row['id'];?>"><img src="img/icon/play.png"></a></div>
                 <h5><b><?php echo $row['movie_name'];?></b></h5>
