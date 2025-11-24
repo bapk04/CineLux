@@ -60,7 +60,7 @@
                 <div class="footer__copyright__text">
                     <p>Bản quyền ©
                         <script>document.write(new Date().getFullYear());</script> - 2020
-                        Dự án phát triển bởi Gainam Gosalia Mo. 8460502720
+                        Dự án phát triển bởi Nhóm 4 lớp 64.CNTT-3 
                     </p>
                 </div>
             </div>

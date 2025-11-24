@@ -47,13 +47,11 @@ include("header.php");
       <div class="area1 columns left">
         
         <h5>INOX Theater là thương hiệu rạp chiếu phim được nhận diện rộng rãi nhất trong nước với các tiêu chuẩn cao về ‘Sang trọng’, ‘Dịch vụ’ & ‘Công nghệ’.</h5>
-        <p>Hiện tại, hệ thống rạp chiếu có hơn 450 màn hình tại hơn 100 địa điểm, phủ rộng trên hơn 100 thành phố trên toàn quốc.  
-        Điểm tiện lợi nhất khi sử dụng là sự đơn giản và dễ dàng để đặt vé trực tuyến. Xuất phát từ Chennai – nơi có truyền thống điện ảnh lâu đời, chúng tôi là một chuỗi rạp với niềm đam mê mang đến trải nghiệm và một niềm đam mê lớn hơn để chia sẻ với khách hàng.  
-        Chúng tôi hiểu niềm vui khi xem những câu chuyện yêu thích sống động trên màn ảnh rộng, và tin rằng trách nhiệm của chúng tôi là nỗ lực hết sức để làm trải nghiệm này trở nên sống động nhất có thể!  
-        Công ty đã góp phần đưa chỉnh sửa phi tuyến tính số hóa dựa trên máy tính vào Ấn Độ với Avid Technology, thay đổi ngành công nghiệp và cách thức biên tập phim và chương trình truyền hình Ấn Độ mãi mãi. Công ty sau đó mang âm thanh rạp chiếu số hóa đến Ấn Độ với DTS và giúp ngành điện ảnh Ấn Độ nhảy vọt một thế hệ từ âm thanh mono lên kỹ thuật số.  
+        <p>Hiện tại, hệ thống rạp của chúng tôi phủ khắp nhiều tỉnh thành tại Việt Nam, mang đến các cụm rạp hiện đại và tiện nghi cho khán giả. Điểm nổi bật khi sử dụng dịch vụ là khả năng đặt vé trực tuyến nhanh chóng và thuận tiện. Chúng tôi khởi nguồn và phát triển tại Việt Nam — nơi có nền điện ảnh ngày càng năng động và sáng tạo, với nhiều tác phẩm nội địa được khán giả đón nhận.
+        Chúng tôi luôn đặt trải nghiệm khán giả lên hàng đầu: từ màn ảnh lớn sắc nét, hệ thống âm thanh sống động, đến dịch vụ khách hàng chu đáo. Đồng thời, chúng tôi hợp tác với các nhà sản xuất và nhà làm phim trong nước để hỗ trợ sự phát triển của điện ảnh Việt Nam.
         <br>
-        Hệ thống phục vụ 24/7.  
-        </p> 
+        Hệ thống phục vụ nhiều khung giờ linh hoạt để phù hợp với lịch trình của bạn.
+        </p>
 
       </div>
       <div class="area2 columns feature-media left">
@@ -82,9 +80,9 @@ include("header.php");
                         <div class="dvPatronDescHead">
                             Sang trọng
                         </div>
-                        <div class="dvPatronDescText">
-                           INOX Theater là chuỗi rạp chiếu hàng đầu tại Gujarat. Rạp chiếu cả phim Hindi và Anh, mang đến trải nghiệm điện ảnh cao cấp cho khách hàng.
-                        </div>
+                                <div class="dvPatronDescText">
+                                    INOX Theater là chuỗi rạp hàng đầu tại Việt Nam. Phục vụ phim Việt Nam, Hollywood và các bộ phim châu Á, mang đến trải nghiệm điện ảnh cao cấp cho khán giả.
+                                </div>
                     </div>
                 </div>
             </div>

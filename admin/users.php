@@ -68,8 +68,8 @@ if (mysqli_num_rows($result) > 0) {
               <td><?php echo $row['password'];?></td>
               <td><img src="image/<?php echo $row['image']; ?>" alt="" class="resize"></td>
               <td><?php echo number_format($row['balance'], 0, ',', '.'); ?> VND</td>
-              <td><button data-toggle="modal" type="button" data-target="#edit_users_modal<?php echo $id;?>" class="btn btn-primary btn-sm">Edit Movie</button>
-              <button data-toggle="modal" type="button" data-target="#delete_users_modal<?php echo $id;?>" class="btn btn-danger btn-sm">Delete Movie</button></td></td>
+              <td><button data-toggle="modal" type="button" data-target="#edit_users_modal<?php echo $id;?>" class="btn btn-primary btn-sm">Edit detail</button>
+              <button data-toggle="modal" type="button" data-target="#delete_users_modal<?php echo $id;?>" class="btn btn-danger btn-sm">Delete detail</button></td></td>
             </tr>
 
  <div class="modal fade" id="delete_users_modal<?php echo $row['id'];?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
