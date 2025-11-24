@@ -70,9 +70,8 @@ if (mysqli_num_rows($result) > 0) {
                 <embed style="width: 820px; height: 450px;" src="<?php echo $row['you_tube_link'];?>" type="video/mp4"></embed>
               </div>
             </div>
-          </div> 
-           
-  <?php
+          </div>
+<?php
 }
   }
 }
